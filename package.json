@@ -1,0 +1,17 @@
+{
+  "name": "cicd-aws-ec2",
+  "version": "0.0.1",
+  "description": "API Node Dockerizada com pipeline CI/CD integrada com AWS EC2",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yago-codev/node-cicd-aws-ec2.git"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
